@@ -1,0 +1,219 @@
+.menu {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.menu article:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu .logo-fusa img {
+    width: 150px;
+    height: 150px;
+    margin: 16px;
+}
+
+.barra-opciones ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.btn-menu {
+    background-color: #F2E4DA;
+    border: #AA744B solid 5px;
+    color: #AA744B;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0;
+    padding: 10px;
+    min-width: 200px;
+    min-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+}
+
+.btn-menu .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #AA744B;
+    z-index: -1;
+    transition: 1s;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 0;
+}
+
+.btn-menu .realizar-pedido-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #AA744B;
+    z-index: -1;
+    transition: 1s;
+}
+
+.realizar-pedido-btn {
+    width: 100%;
+    max-width: 940px;
+    border-radius: 0px;
+}
+
+.realizar-pedido-btn a{
+    font-weight: bold;
+}
+
+.btn-menu:hover {
+    color: #F2E4DA;
+}
+
+.btn-menu:hover .overlay,
+.btn-menu:hover .realizar-pedido-overlay {
+    width: 100%;
+}
+
+.activo {
+    background-color: #AA744B;
+    color: #F2E4DA;
+}
+
+.cartas {
+    width: 100%;
+    padding: 16px;
+    max-width: 940px;
+    color: #fff
+}
+
+.criollos-container,
+.piqueos-container,
+.makis-tipos,
+.promociones-container {
+    width: 100%;
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.makis-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.nombre-categoria {
+    font-size: 35px;
+    margin-bottom: 16px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.descripcion-categoria {
+    margin-bottom: 16px;
+}
+
+.criollos-card,
+.piqueos-card,
+.makis-card {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.makis-card {
+    width: 100%;
+    align-items: center;
+    gap: 16px;
+}
+
+.criollos-card article:nth-child(2),
+.piqueos-card article:nth-child(3) {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+}
+
+.criollos-card article:nth-child(2) div,
+.piqueos-card article:nth-child(3) div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.criollos-card article:nth-child(2) div p,
+.piqueos-card article:nth-child(3) div p {
+    display: inline;
+    text-align: start;
+    font-size: 22px;
+}
+
+
+.makis-card h2:nth-child(1) {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.precio-categoria {
+    color: #AA744B;
+    background-color: #F2E4DA;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 5px;
+}
+
+.makis-tipos li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.makis-tipos p:nth-child(2) {
+    text-align: center;
+}
+
+.bebidas-container {
+    max-width: 500px;
+}
+
+.bebidas-container ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    gap: 8px;
+}
+
+.bebidas-container ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bebidas-container ul li p {
+    display: inline-block;
+    font-size: 23px;
+}
+
+.promociones-container img {
+    width: 100%;
+    height: 100%;
+    overflow: clip;
+}

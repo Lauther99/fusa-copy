@@ -1,0 +1,333 @@
+{
+    "tiposMenu" : ["Criollo", "Piqueos", "Makis", "Bebidas", "Promociones"],
+    "menu": [
+        {
+            "tipo": "Criollo",
+            "categorias": [
+                {
+                    "nombre": "Ceviches",
+                    "descripcion": "",
+                    "platos": [
+                        {
+                            "nombre": "Ceviche de Caballa",
+                            "precio": "20.00"
+                        },
+                        {
+                            "nombre": "Ceviche Clasico",
+                            "precio": "30.00"
+                        },
+                        {
+                            "nombre": "Ceviche Mixto",
+                            "precio": "35.00"
+                        },
+                        {
+                            "nombre": "Ceviche Carretillero",
+                            "precio": "35.00"
+                        },
+                        {
+                            "nombre": "Ceviche Fusa",
+                            "precio": "40.00"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Criollos",
+                    "descripcion": "",
+                    "platos": [
+                        {
+                            "nombre": "Costillas de Chancho",
+                            "precio": "30.00"
+                        },
+                        {
+                            "nombre": "Seco de Chavelo",
+                            "precio": "35.00"
+                        },
+                        {
+                            "nombre": "Majado de Yuca",
+                            "precio": "35.00"
+                        },
+                        {
+                            "nombre": "Ronda Fusa",
+                            "precio": "60.00"
+                        },
+                        {
+                            "nombre": "Ronda Marina",
+                            "precio": "75.00"
+                        },
+                        {
+                            "nombre": "Ronda Criolla",
+                            "precio": "75.00"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Tiraditos",
+                    "descripcion": "",
+                    "platos": [
+                        {
+                            "nombre": "Tiradito Rojo",
+                            "precio": "30.00"
+                        },
+                        {
+                            "nombre": "Tiradito Amarillo",
+                            "precio": "30.00"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Chicharrones",
+                    "descripcion": "",
+                    "platos": [
+                        {
+                            "nombre": "Chicharrón de Pescado",
+                            "precio": "30.00"
+                        },
+                        {
+                            "nombre": "Chicharrón de Pollo",
+                            "precio": "30.00"
+                        },
+                        {
+                            "nombre": "Chicharrón Mixto de Pescado",
+                            "precio": "35.00"
+                        },
+                        {
+                            "nombre": "Chicharrón de Mar y Tierra",
+                            "precio": "40.00"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Arroces",
+                    "descripcion": "",
+                    "platos": [
+                        {
+                            "nombre": "Arroz Chaufa de Pollo",
+                            "precio": "20.00"
+                        },
+                        {
+                            "nombre": "Arroz Chaufa Mixto",
+                            "precio": "25.00"
+                        },
+                        {
+                            "nombre": "Lomo Saltado",
+                            "precio": "30.00"
+                        },
+                        {
+                            "nombre": "Arroz con Mariscos",
+                            "precio": "35.00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo": "Piqueos",
+            "categorias": [
+                {
+                    "nombre": "Alitas",
+                    "descripcion": "(ANTICUCHERAS, BBQ, BBQ PICANTE,HONEY MUSTARD, BUFFALO, MARACUYA, PANKO, BROASTER, AJO PARMESANO, TERIYAKI, ACEVICHADAS, PIZZERAS)",
+                    "platos": [
+                        {
+                            "nombre": "06 Alas + papas",
+                            "precio": "22.00"
+                        },
+                        {
+                            "nombre": "12 Alas + papas (2 sabores)",
+                            "precio": "38.00"
+                        },
+                        {
+                            "nombre": "20 Alas + papas (4 sabores)",
+                            "precio": "60.00"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Tequeños",
+                    "descripcion": "",
+                    "platos": [
+                        {
+                            "nombre": "Tequeños de jamón y queso (8)",
+                            "precio": "20.00"
+                        },
+                        {
+                            "nombre": "Tequeños de langostino (8)",
+                            "precio": "25.00"
+                        },
+                        {
+                            "nombre": "Tequeños de lomo (8)",
+                            "precio": "25.00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo": "Makis",
+            "categorias": [
+                {
+                    "nombre": "Makis Clasicos",
+                    "precio": "24.00",
+                    "platos": [
+                        {
+                            "nombre": "MAKI ACEVICHADO",
+                            "descripcion": "Relleno de langostino al Panko y palta cubierta con finas laminas de pescado bañado en una salsa acevichada de la casa"
+                        },
+                        {
+                            "nombre": "MAKI FURAI",
+                            "descripcion": "Relleno de langostino al Panko, queso crema y palta, empanizado por afuera"
+                        },
+                        {
+                            "nombre": "MAKI FUSA",
+                            "descripcion": "Relleno de EBI Furai y palta, envuelto por alga nori y topeado por chicharrón de mariscos con una salsa especial"
+                        },
+                        {
+                            "nombre": "MAKI MÁNCORA",
+                            "descripcion": "Relleno de langostino al Panko con queso crema, cubierto por plátano frito y salsa teriyaki"
+                        },
+                        {
+                            "nombre": "MAKI AVOCADO",
+                            "descripcion": "Relleno de langostino al Panko con palta cubierto de laminas de palta, bañado en salsa anguila y ajonjolí"
+                        },
+                        {
+                            "nombre": "MAKI TROPICAL",
+                            "descripcion": "Relleno de EBI Furai y queso crema, cubierto por laminas de durazno en salsa de maracuyá y ajonjolí"
+                        },
+                        {
+                            "nombre": "MAKI CALIFORNIA",
+                            "descripcion": "Relleno de salmón, queso crema, palta con semillas de ajonjolí"
+                        },
+                        {
+                            "nombre": "MAKI OSOMAKI",
+                            "descripcion": "Relleno de EBI Furai y palta, envuelto de alga nori"
+                        },
+                        {
+                            "nombre": "MAKI PIZZERO",
+                            "descripcion": "Relleno de langostino al Panko, queso crema, coronado con un queso pizzero flameado"
+                        },
+                        {
+                            "nombre": "MAKI TROPICAL",
+                            "descripcion": "Relleno con salmón o langostino al Panko, camote, cubierto con laminas de pescado y salsa acevichada"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Makis Especiales",
+                    "precio": "27.00",
+                    "platos": [
+                        {
+                            "nombre": "MAKI ANTICUCHERO",
+                            "descripcion": "Relleno de lomo y palta, cubierto por laminas de lomo y anticuchera flameada"
+                        },
+                        {
+                            "nombre": "MAKI GAUCHO",
+                            "descripcion": "Relleno de lomo y queso crema, cubierto por láminas de lomo y salsa anticuchera flameada"
+                        },
+                        {
+                            "nombre": "MAKI CHARRITO",
+                            "descripcion": "Relleno de EBI Furai y palta, cubierto por guacamole y doritos en salsa teriyaki"
+                        },
+                        {
+                            "nombre": "MAKI SPICY ROCOTO",
+                            "descripcion": "Relleno de langostino al Panko y palta, cubierto por laminas de rocoto y salsa Spicy"
+                        },
+                        {
+                            "nombre": "MAKI FURAI ACEVICHADO",
+                            "descripcion": "Relleno de langostino al Panko, queso crema y palta, empanizado por afuera bañada en una salsa especial acevichada de la casa"
+                        },
+                        {
+                            "nombre": "MAKI DRAGÓN",
+                            "descripcion": "Relleno de langostino al Panko, queso crema y palta empanizada por fuera"
+                        },
+                        {
+                            "nombre": "MAKI TIRADITO",
+                            "descripcion": "Relleno de langostino al Panko y palta, cubierto por finas laminas de pescado en salsa de tiradito"
+                        },
+                        {
+                            "nombre": "MAKI CALETTA",
+                            "descripcion": "Relleno de EBI Furai y palta, cubierto por queso crema y chimichurri flameado"
+                        },
+                        {
+                            "nombre": "MAKI CUBANO",
+                            "descripcion": "Rellano de lomo, plátano maduro frito, queso crema, coronado con queso cheddar"
+                        },
+                        {
+                            "nombre": "MAKI CRISPY ROLL",
+                            "descripcion": "Relleno con pollo al Panko, palta y coronado con una salsa Feyu"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Makis Premium",
+                    "precio": "30.00",
+                    "platos": [
+                        {
+                            "nombre": "OLIVO ROLL",
+                            "descripcion": "Relleno de EBI Furai y palta topeada con pulpo al olivo"
+                        },
+                        {
+                            "nombre": "CALIFORNIA FRESH",
+                            "descripcion": "Relleno de queso crema, langostino al Panko y palta, cubierto por laminas de salmón y chimichurri flameado con ajonjolí"
+                        },
+                        {
+                            "nombre": "MAKI EXTRAVAGANZA",
+                            "descripcion": "Relleno con salmón queso crema, coronado con laminas de salmón flameado en una salsa Batavaki"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo": "Bebidas",
+            "items": [
+                {
+                    "nombre": "Agua",
+                    "precio": "3.00"
+                },
+                {
+                    "nombre": "Limonada/maracuyá",
+                    "precio": "16.00"
+                },
+                {
+                    "nombre": "Limonada/maracuyá Frozen",
+                    "precio": "18.00"
+                },
+                {
+                    "nombre": "Chicha morada",
+                    "precio": "16.00"
+                },
+                {
+                    "nombre": "1/2 Jarra chicha morada",
+                    "precio": "8.00"
+                },
+                {
+                    "nombre": "Inca kola/ Coca cola 1 L",
+                    "precio": "8.00"
+                },
+                {
+                    "nombre": "Inca kola/ Coca cola",
+                    "precio": "5.00"
+                },
+                {
+                    "nombre": "Inca kola/ Coca cola 296 ml",
+                    "precio": "3.00"
+                },
+                {
+                    "nombre": "Pepsi / Seven up / Concordia 255 ml",
+                    "precio": "2.00"
+                },
+                {
+                    "nombre": "Cerveza Pilsen / Cristal",
+                    "precio": "7.00"
+                },
+                {
+                    "nombre": "Qusqueña trigo",
+                    "precio": "8.00"
+                },
+                {
+                    "nombre": "Heineken / Stella",
+                    "precio": "9.00"
+                }
+            ]
+        }
+    ]
+}

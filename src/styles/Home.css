@@ -1,0 +1,149 @@
+.home {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-image{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home-image img{
+    max-height: 100vh;
+    height: 100%;
+}
+
+.home-options{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.options-container{
+    width: 70%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.options-container img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 16px;
+}
+
+.entrada ul {
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-01 {
+    cursor: pointer;
+    background-color: #F2E4DA;
+    border: #AA744B solid 5px;
+    color: #AA744B;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0;
+    width: 25vw;
+    min-width: 200px;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+}
+
+.btn-01 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #AA744B;
+    z-index: -1;
+    transition: 1s;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 12px; 
+    border-bottom-left-radius: 12px; 
+    border-bottom-right-radius: 0;
+}
+
+.btn-01:hover{
+    color: #F2E4DA;
+}
+
+.btn-01:hover .overlay{
+    width: 100%;
+}
+
+@media screen and (max-width: 1250px){
+    .btn-01 {
+        font-size: 20px;
+    }
+
+    .home-image img{
+        width: 400px;
+        height: 500px;
+    }
+
+    .home-image{
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 875px){
+    .options-container img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .home-image{
+        display: none;
+    }
+
+    .home-options{
+        width: 100%;
+    }
+
+    .options-container{
+        width: 100%;
+        max-width: none;
+        min-width: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .btn-01 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .options-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn-01 {
+        width: 350px;
+        min-width: none;
+    }
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap');
+
+:root {
+    /*========== Colors ==========*/
+    --main-body-color: #ce2323;
+    /* --main-body-color: #f1f2f6;
+    --alt-color: #009432;
+    --text-color-normal: #222f3e;
+    --text-color-light: #576574;
+    --container-color-normal: #dfe4ea80;
+    --nav-container-bg: #1515152a;
+    --container-color-alt: #fff;
+    --card-container: #dfe4eade;
+    --border-color: #eee;
+    --border-color-alt: #a4b0be;
+    --button-bg: #fff;
+    --sunny-color: #48dbfb;  */
+    /*========== Font and typography ==========*/
+    /* --body-font: 'Averia Serif Libre', cursive; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+    padding: 1.5rem;
+    overflow: hidden;
+    font-family:  'Open Sans', sans-serif;
+
+    background-image: url("../assets/fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    color: var(--text-color-normal);
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+h2 {
+    font-size: 25px;
+    color: var(--main-color);
+}
+
+h3 {
+    font-size: 18px;
+    color: var(--text-color-normal);
+}
+
+p {
+    color: var(--text-color-light);
+    text-align: justify;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding: 0 !important;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
